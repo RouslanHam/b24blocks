@@ -1,0 +1,33 @@
+{
+    "code": "block1",
+    "fields": {
+        "NAME": "Текстовый блок",
+        "SECTIONS": "text",
+        "PREVIEW": "logo.jpg"
+    },
+    "manifest": {
+        "nodes": {
+            ".text-uppercase": {
+                "name": "Заголовок",
+                "type": "text"
+            },
+            ".text-block": {
+                "name": "Текст",
+                "type": "text"
+            },".u-btn-darkgray": {
+                "name": "Ссылка",
+                "type": "link"
+            },
+            ".img-fluid": {
+                "name": "Img",
+                "type": "img"
+                }
+            },
+        "style": {
+            ".text-uppercase": {
+            "name": "Заголовок",
+            "type": "typo"
+            }
+        }
+    }
+}
